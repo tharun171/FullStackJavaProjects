@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ taglib prefix="ab" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ page isELIgnored="false"%>
 <%@ page import="java.util.List" %>
 <!DOCTYPE html>
@@ -64,11 +65,25 @@
                             </ul>
                         </p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer" style="display:flex; justify-content:space-around; border:2px solid blue;">
                         <!-- Optional footer content -->
+                        <div>
+                        	<form:form action="delete" method="POST" modelAttribute="jobPost1">
+	                        	<input type="hidden" name="postId" value="${jobPost.postId}" />
+	                        	<ab:set var="deleteId" value="${jobPost.postId}"/>
+                        		<div><input type="submit" value='Delete'></div>
+                        	</form:form>
+                        </div>
+                        <div>
+                        	<form:form action="update" method="POST" modelAttribute="jobPost2">
+	                        	<input type="hidden" name="postId" value="${jobPost.postId}" />
+	                        	<div><input type="submit" value='Update'></div>
+                       		</form:form>
+                        </div>
                     </div>
                 </div>
             </div>
+           
         </ab:forEach>
     </div>
 </div>

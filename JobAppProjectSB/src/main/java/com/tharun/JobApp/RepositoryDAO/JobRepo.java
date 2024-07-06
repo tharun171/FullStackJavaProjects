@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.tharun.JobApp.BusinessBeans.JobPost;
+import com.tharun.JobApp.BusinessBeans.JobPostComparator;
 
 @Repository
 public class JobRepo {
@@ -17,14 +18,56 @@ public class JobRepo {
 	//get all JobPosts
 	public List<JobPost> getAllJobPosts()
 	{
+		allJobPosts.sort(new JobPostComparator());
 		return allJobPosts;
 	}
 	
 	//add a JobPost
 	public void addJobPost(JobPost jobDetails)
 	{
-		allJobPosts.add(jobDetails);
-		System.out.println("added...");
+		JobPost job = null;
+		try
+		{
+			job = allJobPosts.get(jobDetails.getPostId()-1);
+		}
+		catch(Exception e)
+		{
+			System.out.println("error ");
+			job = null;
+		}
+		System.out.println("job "+job);
+		System.out.println(allJobPosts.contains(job));
+		
+		if(job == null)
+		{
+			System.out.println("added...");
+			allJobPosts.add(jobDetails);
+		}
+		else
+		{
+			System.out.println("updating...");
+			JobPost existing  = allJobPosts.get(jobDetails.getPostId()-1);
+			System.out.println("existing "+existing);
+			existing.setPostProfile(jobDetails.getPostProfile());
+			existing.setPostDescription(jobDetails.getPostDescription());
+			existing.setPostTechStack(jobDetails.getPostTechStack());
+			existing.setRequiredExp(jobDetails.getRequiredExp());
+			System.out.println("updated "+existing);
+			allJobPosts.set(job.getPostId()-1, existing);
+		}
+	}
+	
+	//delete JobPost
+	public String deleteJobPost(Integer deleteId)
+	{
+		allJobPosts.remove(deleteId-1);
+		return "deleted";
+	}
+	
+	//get Job Post
+	public JobPost getJobPost(Integer id)
+	{
+		return allJobPosts.get(id-1);
 	}
 	
 	

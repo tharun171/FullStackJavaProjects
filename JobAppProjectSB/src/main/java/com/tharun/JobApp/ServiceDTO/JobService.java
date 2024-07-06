@@ -26,4 +26,16 @@ public class JobService {
 	{
 		repo.addJobPost(jobDetails);
 	}
+	
+	//delete Id
+	public String deleteJobPost(Integer deleteId)
+	{
+		return repo.deleteJobPost(deleteId);
+	}
+	
+	//get Id
+	public JobPost getJobPost(Integer id)
+	{
+		return repo.getJobPost(id);
+	}
 }
