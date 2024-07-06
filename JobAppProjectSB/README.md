@@ -1,5 +1,5 @@
 JOB APP PROJECT
-Learned from *Telusko* and extended with update and delete
+Learned from **Telusko** and extended it with update and delete
 
 Has no connection with Database.
 Uses ArrayList to store the objects.
