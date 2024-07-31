@@ -1,3 +1,5 @@
+/* css for only FooterComponent */
+
 .footerDiv{
     position: fixed; /* Fixes the footer at a specific position */
     bottom: 0;       /* Positions the footer at the bottom of the viewport */
