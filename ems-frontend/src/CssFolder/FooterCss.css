@@ -1,0 +1,9 @@
+.footerDiv{
+    position: fixed; /* Fixes the footer at a specific position */
+    bottom: 0;       /* Positions the footer at the bottom of the viewport */
+    left: 0;         /* Aligns the footer to the left */
+    width: 100%;     /* Ensures the footer spans the full width */
+    background-color: #f1f1f1; /* Light grey background for visibility */
+    text-align: center; /* Centers the text inside the footer */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
