@@ -1,0 +1,26 @@
+
+.signup-form
+{
+	height:10px;
+}
+.signup-input
+{
+	height:2.5rem;
+	margin-right:1rem;
+}
+
+.otpButton,.verifyOtpButton
+{
+	height:2.5rem;
+	font-size:1rem;
+	margin-bottom:0.8rem;
+}
+
+.errormessage
+{
+	color:red;
+}
+.successmessage
+{
+	color:green;
+}

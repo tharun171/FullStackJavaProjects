@@ -1,0 +1,276 @@
+
+.bodyOfCart
+{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	background-color:rgb(253, 255, 174);
+}
+.head
+{
+	width:80%;
+	border:2px solid green;
+	border-radius:5px;
+	border-bottom:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	align-content:center;
+}
+
+#abc1
+{
+	width:25%;
+	text-align:center;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+#abc2,#abc3,#abc4,#abc5
+{
+	margin-top:5px;
+	font-weight:bold;
+}
+
+.section1
+{
+	width:30%;
+	height:450px;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.matterSection1
+{
+	width:90%;
+	height:35%;
+	background-color:white;
+	border-radius:7px;
+	border:2px solid cyan;
+}
+
+.section2
+{
+	width:60%;
+	height:100%;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.box1
+{
+	/*border:2px solid cyan;*/
+	display:flex;
+	justify-content:center;
+	font-family:Cursive,Times,sans-serif;
+	font-size:20px;
+	color:green;
+	margin-bottom:20px;
+	margin-top:25px;
+}
+.box2
+{
+	border:2px solid green;
+	width:80%;
+	height:300px;
+	border-radius:5px;
+	display:flex;
+	overflow-y:hidden;
+	flex-direction:column;
+	/*justify-content:center;*/
+	align-items:center;
+	background-color:white;
+}
+
+.box2:hover
+{
+	overflow-y:auto;
+}
+.item
+{
+	/*border:2px solid black;*/
+	width:100%;
+	height:40px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin-bottom:5px;
+}
+
+#item1
+{
+	width:40%;
+	height:100%;
+	padding-top:15px;
+	/*border:2px solid red;*/
+}
+#item2
+{
+	width:10%;
+	margin-top:10px;
+	/*border:2px solid red;*/
+}
+#item3
+{
+	width:30%;
+	margin-top:10px;
+	text-align:center;
+	/*border:2px solid red;*/
+}
+.item5
+{
+	width:20%;
+	text-align:center;
+	margin-top:10px;
+	/*border:2px solid red;*/
+}
+
+
+.button
+{
+	width:50px;
+	height:20px;
+	border:2px solid black;
+	border-radius:4px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:-3px;
+}
+.btn1
+{
+	height:100%;
+	width:30%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.realBtn
+{
+	width:100%;
+	height:100%;
+	border:none;
+	border-radius:3px;
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:green;
+	font-size:25px;
+	padding-bottom:3px;
+}
+.btn2
+{
+	height:100%;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:13.5px;
+	color:green;
+}
+.plus
+{
+	font-size:17px;
+	padding-bottom:3px;
+}
+.btn3
+{
+	height:100%;
+	width:30%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.section3
+{
+	width:20%;
+	height:100%;
+	/*border:2px solid red;*/
+}
+.footer
+{
+	position:fixed;
+}
+
+.middleBox
+{
+	display:flex;
+}
+
+.billing
+{
+	width:100%;
+	height:30px;
+	display:flex;
+	justify-content:space-between;
+}
+.billing-item
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+.boxTwo
+{
+	margin-top:15px;
+	border-radius:5px;
+	border:2px solid green;
+	width:80%;
+	height:auto;
+	background-color:white;
+}
+.sectionTwo
+{
+	border:2px solid green;
+}
+
+.middleBox
+{
+	background-color:rgb(253, 255, 174);
+}
+
+.checkout
+{
+	margin-top:20px;
+	color:red;
+	background-color:white;
+	border-radius:5px;
+	width:100px;
+}
+.checkout:hover
+{
+	color:green;
+	background-color:white;
+	border-color:green;
+}
+
+
+.button1
+{
+	width:50px;
+	height:20px;
+	border:2px solid black;
+	border-radius:4px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:2px;
+	margin-left:50%;
+}
+
+.invoice
+{
+	text-decoration:none;
+}
+.invoice:hover
+{
+	text-decoration:none;
+}

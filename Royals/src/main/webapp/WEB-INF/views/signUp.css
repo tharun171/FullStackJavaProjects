@@ -1,0 +1,85 @@
+
+
+.signup-form
+{
+	height:40%;
+	width:85%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+	position:relative;
+}
+
+.signup-input
+{
+	width:15rem;
+	margin-left:1.2rem;
+	border-radius:4px;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	border-bottom-style:dashed;
+	background-color:rgb(230, 230, 230,.45);
+	margin-bottom:0.8rem;
+}
+
+.signup-input:hover
+{
+	border-radius:8px;
+	border-color:brown;
+}
+
+.verifyPhone-btn
+{
+	background-color:rgb(210, 166, 121);
+	color:white;
+	margin-top:4px;
+	width:11rem;
+	height:2rem;
+	border-radius:4px;
+}
+.verifyPhone-btn:hover
+{
+	border-radius:8px;
+	border-color:brown;
+
+}
+
+.signup-others
+{
+	width:85%;
+	height:15%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.login-btn
+{
+	background-color:rgb(210, 166, 121);
+	color:white;
+	margin-top:4px;
+	width:11rem;
+	height:2rem;
+	border-radius:4px;
+}
+.login-btn:hover
+{
+	border-radius:8px;
+	color:brown;
+}
+
+
+.agreeMessagesBox
+{
+	margin-right:7px;
+	margin-left:15px;
+}
+
+.errormessage
+{
+	color:red;
+	font-size:15px;
+}
