@@ -1,0 +1,86 @@
+<!-- 
+			<div class="item">
+				<div class="matter">
+						<div class="matter1">
+							<div class="food"><i class="fa-solid fa-leaf foodType" style="color: #00ff2a;"></i></div>
+							<div class="name"><p class="title">Masala Dosa</p></div>
+							<div class="rupee"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i>127</div>
+						</div>
+						<div class="matter2">
+							<div><i class="fa-solid fa-star staricon" style="color: #156100;"></i></div>
+							<div class="rating">4.0</div>
+							<div class="peopleOrdered">(268)</div>
+						</div>
+						<div class="matter3">
+							<a href="#" title="" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Dosa topped with aloo masala. Served with Spiced Sambar, coconut chutney & Spl chutney of the day"
+							class="moreDetails">More Details<i class="fa-solid fa-light fa-arrow-right fa-beat-fade fa-sm arrow"></i></a>
+						</div>
+				</div>
+				<div class="pic">
+					<div class="picbox1"><img class="pics" src="<%=request.getContextPath()%>/images/dosa.jpeg" alt="Dosa"></div>
+					<div class="picbox2"><button type="button" class="add">ADD</button></div>
+					<div class="picbox3"><p class="caption">Customisable</div>
+				</div>	
+			</div>
+			 -->
+
+			 
+			 
+			 
+<!-- 
+			 <div class="wrapper">
+			<c:forEach items="${refreshments}" var="listObj">
+				<div class="item">
+					<div class="matter">
+							<div class="matter1">
+								<c:set var="foodtype" value="${listObj.foodType}"></c:set>
+								<c:if test="${foodtype eq 'veg'}">
+									<div class="food"><img class="foodIcon" src="<%=request.getContextPath()%>/images/veg.jpg" alt="${listObj.foodType}"/></div>
+								</c:if>
+								<c:if test="${foodtype eq 'nonveg'}">
+									<div class="food"><img class="foodIcon" src="<%=request.getContextPath()%>/images/nonveg.jpg" alt="${listObj.foodType}"/></div>
+								</c:if>
+								<div class="name"><p class="title">${listObj.title}</p></div>
+								<div class="rupee"><i class="fa-solid fa-indian-rupee-sign fa-sm"></i>  ${listObj.price}</div>
+							</div>
+							<div class="matter2">
+								<div><i class="fa-solid fa-star staricon" style="color: #156100;"></i></div>
+								<div class="rating">${listObj.rating}</div>
+								<div class="peopleOrdered">(${listObj.noOfPeopleOrdered})</div>
+							</div>
+							<div class="matter3">
+								<a href="#" title="" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="${listObj.itemDetails}"
+								class="moreDetails">More Details<i class="fa-solid fa-light fa-arrow-right fa-beat-fade fa-sm arrow"></i></a>
+							</div>
+					</div>
+					<div class="pic">
+						<div class="picbox1"><img class="pics" src="<%=request.getContextPath()%>${listObj.image}" alt="${listObj.alternateImageName}"></div>
+						<div class="picbox2"><button type="button" class="add">ADD</button></div>
+						<div class="picbox3"><p class="caption">${listObj.customisable}</div>
+					</div>	
+				</div>
+			</c:forEach>
+		</div>
+	 	-->
+	 	
+	<!-- 	
+	<div class="wrapper" id="spl">
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+			<div class="item">box-1</div>
+		</div>
+	 -->
+	 
+	 
+	 
+	 front end  --> HTML CSS BOOTSTRAP JSP(java server pages)
+	 BACKEND --> JAVA Spring boot, spring framework (core,web,security)
+	 DB --> MySQl
+	 

@@ -1,0 +1,423 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	border:border-box;
+}
+
+
+.navbar
+{
+	position:fixed;
+	width:100%;
+	height:5rem;
+	background-color:black;
+	/*border:2px solid black;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	margin-top:-10px;	
+}
+
+.logo
+{
+	width:25%;
+	height:4.5rem;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+}
+.types
+{
+	width:45%;
+	height:4.5rem;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+.types1
+{
+	height:2.4rem;
+	/*border:2px solid green;*/
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.types2
+{
+	height:2.4rem;
+	/*border:2px solid green;*/
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.items
+{
+	color:rgb(255, 255, 102);
+	text-decoration:none;
+}
+.items:hover
+{
+	color:rgb(255, 209, 26);
+	text-decoration:none;
+}
+.cart
+{
+	width:30%;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:row-reverse;
+	align-items:center;
+	/*border:2px solid red;*/
+}
+.cart-total
+{
+	color:rgb(255, 255, 102);
+	margin-left:10px;
+	margin-right:30px;
+	margin-top:20px;
+}
+.dropdownaccount
+{
+	width:50%;
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:flex-start;
+	align-items:center;
+	/*border:2px solid cyan;*/
+}
+.dropdown-menu
+{
+	margin-right:300px;
+	width:140px;
+	height:150px;
+	padding:0px;
+}
+.dropdown-item
+{
+	margin-left:40px;
+}
+
+.dropdown-menu:hover
+{
+	color:rgb(255, 209, 26);
+}
+.dropdown-menu a
+{
+	width:150px;
+	color:rgb(255, 255, 102);
+	margin-left:0px;
+}
+.dropdown-menu a:hover
+{
+	display:inline-block;
+	background-color:black;
+	color:rgb(255, 209, 26);
+}
+.itemlast
+{
+	padding-left:50px;
+	color:black;
+	text-decoration:none;
+}
+.itemlast:hover
+{
+	text-decoration:none;
+}
+.account
+{
+	color:red;
+	border:2px solid cyan;
+}
+.userIcon
+{
+	margin-right:15px;
+	margin-left:30px;
+	
+}
+.rightSide
+{
+	width:30%;
+	height:4.5rem;
+	/*border:2px solid cyan;*/
+	display:flex;
+}
+.mainCarousel
+{
+	height:323px;
+	border:2px solid red;
+}
+.bottom
+{
+	border:2px solid red;
+	display:flex;
+	flex-direction:column;
+	background-color:rgb(253, 255, 174);
+}
+.wrapper
+{
+	max-height:800px;
+	/*border:3px solid cyan;*/
+	display:flex;
+	overflow:hidden;
+	margin-left:30px;
+	margin-right:30px;
+}
+.wrapper:hover
+{
+	overflow-x:scroll;
+}
+.wrapper::-webkit-scrollbar
+{
+	width:5px;
+	color:red;
+	/*background-color:rgb(253, 255, 174);*/
+}
+::-webkit-scrollbar
+{
+	width:5px;
+}
+::-webkit-scrollbar-track
+{
+	width:5px;
+	background-color:rgb(253, 255, 174);
+}
+::-webkit-scrollbar-button
+{
+	background-color:red;
+}
+::-webkit-scrollbar-thumb
+{
+	width:3px;
+	background:linear-gradient(180deg,rgb(253, 255, 174),rgb(255, 209, 26));
+}
+/* Remove scrollbar arrows for the 'nav' div */
+.wrapper::-webkit-scrollbar-button {
+    display: none;
+}
+
+.wrapper::-webkit-scrollbar-button:single-button {
+    display: none;
+}
+
+/*item for the boxes*/
+.wrapper .item
+{
+	border-radius:10px;
+	min-width:330px;
+	height:200px;
+	margin:5px;
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+	/*box-shadow:0 5px 15px rgba(0,0,0,1);*/
+	background-image:linear-gradient(to right,rgb(255, 209, 26),white);
+}
+
+.foodType
+{
+	width:20rem;
+	margin-left:300px;
+	margin-top:15px;
+	border:2px solid red;
+	color:green;
+}
+.item:hover
+{
+	box-shadow:0 5px 15px rgba(0,0,230,0.8);
+}
+.matter
+{
+	width:45%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	align-content:center;
+}
+
+.matter1,.matter2
+{
+	width:100%;
+	height:50%;
+}
+.matter1
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:flex-start;
+	margin-top:15px;
+}
+.matter2
+{
+	height:20%;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.matter3
+{
+	height:30%;
+}
+.matter3 a
+{
+	color:black;
+	text-decoration:none;
+}
+.matter3 a:hover
+{
+	color:black;
+	text-decoration:none;
+}
+.moreDetails
+{
+	border:1px solid black;
+	width:90px;
+	border-radius:15px;
+	padding:2px;
+	font-size:11.5px;
+	margin-left:0.5rem;
+}
+.arrow
+{
+	margin-top:9px;
+	margin-left:5px;
+	font-size:50px;
+}
+.rating
+{
+	color: #156100;
+	font-size:13px;
+	margin-top:4px;
+	margin-left:5px;
+	font-weight:bold;
+}
+.peopleOrdered
+{
+	font-size:13px;
+	margin-top:4px;
+	margin-left:5px;
+	color:rgba(0,0,0,0.6);
+}
+.moreDetails
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+}
+.pic
+{
+	width:55%;
+	height:200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+
+.pics
+{
+	margin-top:0.8rem;
+	margin-left:0.4rem;
+	width:160px;
+	height:140px;
+	border-radius:10px;
+}
+.pics:hover
+{
+	box-shadow:0 5px 15px rgba(0,0,230,0.8);
+}
+.foodType
+{
+	font-size:15px;
+	margin-left:0.5rem;
+}
+.staricon
+{
+	font-size:12px;
+	margin-left:0.5rem;
+}
+
+.foodIcon
+{
+	width:15px;
+	height:15px;
+	margin-left:8px;
+}
+.food
+{
+	margin-bottom:-5px;
+}
+.name
+{
+	margin-left:0.5rem;
+}
+.rupee
+{
+	margin-left:0.8rem;
+	font-size:15px;
+	margin-top:-13px;
+	padding-right:3px;
+}
+.title
+{
+	font-size:14px;
+	font-weight:bold;
+}
+.add
+{
+	color:green;
+	font-weight:bold;
+	width:70px;
+	height:22px;
+	border-radius:10px;
+	background-color:white;
+	margin-top:33px;
+}
+
+/* Styles for the pic container */
+.pic {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the image */
+.picbox1 img {
+	margin-top:1.3rem;
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Style the ADD button */
+.picbox2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Style the caption */
+.picbox3 {
+  text-align: center;
+  margin-top:10px;
+}
+
+.caption
+{
+	font-size:10px;
+	color:rgba(0,0,0,0.5);
+}

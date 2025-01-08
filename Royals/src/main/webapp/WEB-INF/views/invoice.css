@@ -1,0 +1,165 @@
+.bodyPage
+{
+	/*border:2px solid red;*/
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:center;
+	align-items:flex-start;
+	align-content:center;
+}
+
+.bodyContent
+{
+	margin-top:2%;
+	border:2px solid black;
+	width:65%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+
+.heading
+{
+	text-align:center;
+	margin-bottom:10px;
+	width:100%
+}
+.logo
+{
+	margin-top:3px;
+	margin-bottom:3px;
+	text-align:center;
+	width:100%;
+}
+.restoBox
+{
+	display:flex;
+	width:95%;
+	/*border:2px solid black;*/
+	justify-content:space-between;
+}
+
+.restoBox1
+{
+	/*border:2px solid red;*/
+	width:40%;
+	height:5.2rem;
+	margin-right:10px;
+}
+.restoBox2
+{
+	/*border:2px solid red;*/
+	width:60%;
+	margin-right:-30px;
+}
+
+.row1
+{
+	/*border:2px solid yellow;*/
+	width:40%;
+	height:3.2rem;
+	margin-bottom:3px;
+}
+
+
+.items
+{
+	margin-top:20px;
+	display:flex;
+	flex-direction:column;
+	width:95%;
+	border:2px solid black;
+}
+
+.items1
+{
+	margin-top:20px;
+	display:flex;
+	width:95%;
+	/*border:2px solid black;*/
+}
+
+/*
+table,th,tr,td
+{
+	border:1px solid black;
+}
+*/
+
+#title,#title1
+{
+	width:30%;
+}
+
+.deliveryfee
+{
+	padding-left:30px;
+	width:80%;
+}
+.deliveryfeelast
+{
+	padding-left:600px;
+	width:80%;
+}
+#rightbox
+{
+	text-align:center;
+	width:100px;
+}
+#title1
+{
+	text-align:center;
+}
+
+#foodType,#price,#quantity,#totalPrice
+{
+	width:100px;
+	text-align:center;
+}
+.subtotal
+{
+	text-align:center;
+	margin-right:5px;
+}
+
+.bottom
+{
+	margin-top:10px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	border-top:2px solid black;
+}
+#bot
+{
+	margin:0;
+}
+
+.subTable
+{
+	width:100%;
+	/*border:2px solid black;*/
+	padding-left:64%;
+}
+
+#subtotal{
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+	width:160px;
+	border:none;
+}
+
+.deliveryfeelast1
+{
+	font-size:15px;
+	font-weight:bold;
+	padding-left:570px;
+	width:80%;
+}
+

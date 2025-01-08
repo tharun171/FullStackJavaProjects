@@ -1,0 +1,161 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	border:border-box;
+}
+
+body
+{
+	
+}
+
+.navbar
+{
+	width:100%;
+	height:5rem;
+	background-color:black;
+	/*border:2px solid black;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	margin-top:-10px;
+}
+
+.logo
+{
+	width:25%;
+	height:4.5rem;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+}
+.types
+{
+	width:45%;
+	height:4.5rem;
+	/*border:2px solid red;*/
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+.types1
+{
+	height:2.4rem;
+	/*border:2px solid green;*/
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.types2
+{
+	height:2.4rem;
+	/*border:2px solid green;*/
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.items
+{
+	color:rgb(255, 255, 102);
+	text-decoration:none;
+}
+.items:hover
+{
+	color:rgb(255, 209, 26);
+	text-decoration:none;
+}
+.cart
+{
+	width:30%;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:row-reverse;
+	align-items:center;
+}
+.cart-total
+{
+	color:rgb(255, 255, 102);
+	margin-left:10px;
+	/*margin-right:30px;*/
+	margin-top:20px;
+}
+.dropdownaccount
+{
+	width:50%;
+	display:flex;
+	flex-direction:flex-start;
+	justify-content:flex-start;
+	align-items:center;
+}
+.dropdown-menu
+{
+	width:140px;
+	height:150px;
+	padding:0px;
+}
+.dropdown-item
+{
+	margin-left:40px;
+}
+
+.dropdown-menu:hover
+{
+	color:rgb(255, 209, 26);
+}
+.dropdown-menu a
+{
+	width:150px;
+	color:rgb(255, 255, 102);
+	margin-left:0px;
+}
+.dropdown-menu a:hover
+{
+	display:inline-block;
+	background-color:black;
+	color:rgb(255, 209, 26);
+}
+.itemlast
+{
+	padding-left:50px;
+	color:black;
+	text-decoration:none;
+}
+.itemlast:hover
+{
+	text-decoration:none;
+}
+.account
+{
+	color:red;
+	/*border:2px solid cyan;*/
+}
+.rightSide
+{
+	width:30%;
+	height:4.5rem;
+	/*border:2px solid cyan;*/
+	display:flex;
+}
+.userIcon
+{
+	margin-right:15px;
+	margin-left:30px;
+	
+}
+.mainCarousel
+{
+	height:323px;
+	border:2px solid red;
+}
+.bottom
+{
+	height:19.9rem;
+	border:2px solid red;
+}

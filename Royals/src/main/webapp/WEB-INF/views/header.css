@@ -1,0 +1,30 @@
+*
+{
+	margin:0px;
+	border: border-box;
+}
+
+.navbar
+{
+	margin:0px;
+	padding:0px;
+	
+}
+.navbar a
+{
+	margin:0px;
+	padding:0px;
+	display:flex;
+	flex-direction:flex-start;
+	align-items:center;
+	align-content:center;
+}
+
+
+.nav-logo
+{
+	margin-left:10px;
+	width:150px;
+	height:55px;
+	border-radius:5px;
+}
