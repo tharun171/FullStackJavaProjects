@@ -9,7 +9,7 @@ when unauthenticated user tries to login [^2]
 SignUp Page [^3]  
 verify sign up page - sends otp to phoneNumber [^4]  
 User Logged in Page [^5]  
-Account Details Page [^11]
+Account Details Page [^11]  
 Selected items are highlighted in red [^6]  
 Adding addresses and setting an address as primary address [^7]  
 Cart Page [^7]  
@@ -49,7 +49,7 @@ and setting an address as primary address
 [^10]: on clcking on checkout, user gets invoice
 ![image](https://github.com/user-attachments/assets/4d7306f6-173b-49bd-b5d0-d59a85aecc46)
 
-[^11] Account Details Page
+[^11]: Account Details Page
 ![image](https://github.com/user-attachments/assets/c85b7c7d-7e4f-4f21-949f-2b8780d464f6)
 
 
